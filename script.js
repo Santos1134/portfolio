@@ -335,6 +335,37 @@ commitment to feeling great every single day. I hope you'll love wearing these p
             express their spirituality through everyday wear.</p>
         `
     },
+    quickbites: {
+        title: 'Quick Bites Brand Identity',
+        category: 'Branding & Identity Design',
+        images: [
+            'Images/QuickBite/1.jpg',
+            'Images/QuickBite/2.jpg',
+            'Images/QuickBite/3.jpg',
+            'Images/QuickBite/4.jpg',
+            'Images/QuickBite/5.jpg',
+            'Images/QuickBite/6.jpg',
+            'Images/QuickBite/7.jpg',
+            'Images/QuickBite/8.jpg'
+        ],
+        description: `
+            <h3>Project Overview</h3>
+            <p>𝗜𝗻𝘁𝗿𝗼𝗱𝘂𝗰𝗶𝗻𝗴 𝘆𝗼𝘂 𝘁𝗼 𝗤𝘂𝗶𝗰𝗸𝗯𝗶𝘁𝗲𝘀, a fast food delivery service Company dedicated to delivering
+            delicious meals right at your doorsteps quick, fresh, and convenient. Wherever you are at home, School,
+            or at Work, 𝗤𝘂𝗶𝗰𝗸𝗯𝗶𝘁𝗲𝘀 brings timely deliveries with a taste that satisfies every craving.</p>
+            <h3>Logo Rationale</h3>
+            <p>The 𝗤𝘂𝗶𝗰𝗸𝗯𝗶𝘁𝗲𝘀 brand is designed on a bold take of the letter Q, functioning both as a monogram
+            and a symbol of efficiency and speed.</p>
+            <h3>Design Elements</h3>
+            <p><strong>Letterform Focus:</strong> Utilizing only the letter Q creates an instantly recognizable logo through
+            minimal design that facilitates brand recall.</p>
+            <p><strong>Speed Indication:</strong> The addition of motion lines align with the brand promise of speedy delivery.</p>
+            <p><strong>Cut-off Q Design:</strong> The partial cut-off creates a sense of acceleration and urgency, as if
+            the "Q" itself is moving forward in a hurry.</p>
+            <p><strong>Color Selection:</strong> The bright orange color symbolizes a sense of appetite and comfort, often
+            linked to food. The light blue symbolizes trust and freshness.</p>
+        `
+    },
     panelist: {
         title: 'Panelist Graphics',
         category: 'Social Media Design',

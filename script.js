@@ -375,6 +375,27 @@ commitment to feeling great every single day. I hope you'll love wearing these p
             tone, making them perfect for corporate achievements, personal milestones, and special occasions shared
             across social media platforms.</p>
         `
+    },
+    wedding: {
+        title: 'Wedding Graphics',
+        category: 'Social Media Design',
+        images: [
+            'Images/weddin/1.jpg',
+            'Images/weddin/2.jpg',
+            'Images/weddin/3.jpg'
+        ],
+        description: `
+            <h3>Project Overview</h3>
+            <p>This collection features elegant and romantic wedding graphics designed for invitations, save-the-dates,
+            and event announcements. Each design captures the beauty and significance of special wedding moments,
+            combining sophisticated typography with delicate design elements to create memorable keepsakes that
+            couples and their guests will cherish.</p>
+            <h3>Design Approach</h3>
+            <p>The wedding graphics blend classic elegance with modern aesthetics, utilizing refined color palettes,
+            graceful typography, and thoughtful composition. Each piece is carefully crafted to reflect the unique
+            love story while maintaining timeless appeal, making them perfect for both digital sharing on social media
+            and traditional print formats for this once-in-a-lifetime celebration.</p>
+        `
     }
 };
 

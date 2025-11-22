@@ -112,33 +112,52 @@ document.querySelectorAll('.portfolio-item, .service-card, .skill-item').forEach
 
 // Form submission handling
 const contactForm = document.querySelector('.contact-form');
+const formMessage = document.getElementById('form-message');
 
-contactForm.addEventListener('submit', (e) => {
+contactForm.addEventListener('submit', async (e) => {
     e.preventDefault();
 
     // Get form data
     const formData = new FormData(contactForm);
+    const submitButton = contactForm.querySelector('button[type="submit"]');
+    const originalButtonText = submitButton.textContent;
 
-    // Simple form validation
-    const inputs = contactForm.querySelectorAll('input, textarea');
-    let isValid = true;
+    // Show loading state
+    submitButton.textContent = 'Sending...';
+    submitButton.disabled = true;
 
-    inputs.forEach(input => {
-        if (input.hasAttribute('required') && !input.value.trim()) {
-            isValid = false;
-            input.style.borderColor = '#ef4444';
+    try {
+        const response = await fetch('https://api.web3forms.com/submit', {
+            method: 'POST',
+            body: formData
+        });
+
+        const data = await response.json();
+
+        if (data.success) {
+            formMessage.textContent = 'Thank you! Your message has been sent successfully.';
+            formMessage.style.color = '#10b981';
+            formMessage.style.display = 'block';
+            contactForm.reset();
         } else {
-            input.style.borderColor = '#e2e8f0';
+            formMessage.textContent = 'Oops! Something went wrong. Please try again.';
+            formMessage.style.color = '#ef4444';
+            formMessage.style.display = 'block';
         }
-    });
-
-    if (isValid) {
-        // Show success message
-        alert('Thank you for your message! I will get back to you soon.');
-        contactForm.reset();
-    } else {
-        alert('Please fill in all required fields.');
+    } catch (error) {
+        formMessage.textContent = 'Error sending message. Please try again later.';
+        formMessage.style.color = '#ef4444';
+        formMessage.style.display = 'block';
     }
+
+    // Reset button state
+    submitButton.textContent = originalButtonText;
+    submitButton.disabled = false;
+
+    // Hide message after 5 seconds
+    setTimeout(() => {
+        formMessage.style.display = 'none';
+    }, 5000);
 });
 
 // Add active state to navigation based on scroll position
@@ -190,4 +209,85 @@ document.addEventListener('DOMContentLoaded', () => {
         item.style.opacity = '1';
         item.style.transform = 'scale(1)';
     });
+});
+
+// Portfolio Modal Functionality
+const modal = document.getElementById('portfolioModal');
+const modalClose = document.querySelector('.modal-close');
+const modalTitle = document.getElementById('modalTitle');
+const modalCategory = document.getElementById('modalCategory');
+const modalGallery = document.getElementById('modalGallery');
+const modalDescription = document.getElementById('modalDescription');
+
+// Project data
+const projects = {
+    treon: {
+        title: 'TREON Brand Identity',
+        category: 'Branding & Identity Design',
+        images: Array.from({length: 10}, (_, i) => `Images/kk/${i + 1}.jpg`),
+        description: `
+            <h3>Project Overview</h3>
+            <p>TREON is a comprehensive brand identity project that showcases a complete visual system.
+            This project includes logo design, color palette, typography guidelines, and brand applications
+            across various mediums. The identity system was created to establish a strong, cohesive brand
+            presence that resonates with the target audience and maintains consistency across all touchpoints.</p>
+            <h3>Design Process</h3>
+            <p>The design process involved extensive research, conceptualization, and refinement to create
+            a unique and memorable brand identity. Each element was carefully crafted to work harmoniously
+            together, creating a unified brand experience.</p>
+        `
+    }
+};
+
+// Open modal when portfolio item is clicked
+portfolioItems.forEach(item => {
+    item.addEventListener('click', function() {
+        const projectKey = this.getAttribute('data-project');
+        if (projectKey && projects[projectKey]) {
+            openModal(projects[projectKey]);
+        }
+    });
+});
+
+// Function to open modal
+function openModal(project) {
+    modalTitle.textContent = project.title;
+    modalCategory.textContent = project.category;
+
+    // Clear and populate gallery
+    modalGallery.innerHTML = '';
+    project.images.forEach(imageSrc => {
+        const img = document.createElement('img');
+        img.src = imageSrc;
+        img.alt = project.title;
+        modalGallery.appendChild(img);
+    });
+
+    // Set description
+    modalDescription.innerHTML = project.description;
+
+    // Show modal
+    modal.style.display = 'block';
+    document.body.style.overflow = 'hidden';
+}
+
+// Close modal
+modalClose.addEventListener('click', closeModal);
+
+window.addEventListener('click', function(e) {
+    if (e.target === modal) {
+        closeModal();
+    }
+});
+
+function closeModal() {
+    modal.style.display = 'none';
+    document.body.style.overflow = 'auto';
+}
+
+// Close modal on ESC key
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && modal.style.display === 'block') {
+        closeModal();
+    }
 });

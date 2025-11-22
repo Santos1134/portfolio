@@ -380,9 +380,9 @@ commitment to feeling great every single day. I hope you'll love wearing these p
         title: 'Wedding Graphics',
         category: 'Social Media Design',
         images: [
-            'Images/weddin/1.jpg',
-            'Images/weddin/2.jpg',
-            'Images/weddin/3.jpg'
+            'Images/Wedding/1.jpg',
+            'Images/Wedding/2.jpg',
+            'Images/Wedding/3.jpg'
         ],
         description: `
             <h3>Project Overview</h3>

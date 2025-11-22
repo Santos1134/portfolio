@@ -404,15 +404,42 @@ section {
     pointer-events: none;
 }
 
+.portfolio-item {
+    cursor: pointer;
+}
+
 .portfolio-item:hover {
     transform: translateY(-10px);
     box-shadow: var(--shadow-hover);
+}
+
+.portfolio-item[data-project]:hover .portfolio-image::after {
+    opacity: 1;
 }
 
 .portfolio-image {
     position: relative;
     overflow: hidden;
     height: 250px;
+}
+
+.portfolio-image::after {
+    content: 'View Full Project';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(30, 64, 175, 0.95);
+    color: white;
+    padding: 12px 30px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 1rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    z-index: 10;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
 }
 
 .portfolio-image img {

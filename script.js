@@ -447,6 +447,117 @@ commitment to feeling great every single day. I hope you'll love wearing these p
             and joy. Each piece is crafted to be eye-catching and shareable across social media platforms, combining
             modern design trends with timeless celebratory elements that resonate with audiences of all ages.</p>
         `
+    },
+    motivational: {
+        title: 'Motivational Graphics',
+        category: 'Social Media Design',
+        images: [
+            'Images/Motivational/1.jpg',
+            'Images/Motivational/2.jpg'
+        ],
+        description: `
+            <h3>Project Overview</h3>
+            <p>This collection features inspiring and uplifting motivational graphics designed to encourage, inspire,
+            and empower audiences. Each design combines powerful messages with visually compelling layouts to create
+            content that resonates deeply and motivates action across social media platforms.</p>
+            <h3>Design Approach</h3>
+            <p>The motivational graphics utilize strong typography, impactful imagery, and strategic color choices to
+            convey messages of positivity and encouragement. Each piece is carefully crafted to be both visually
+            striking and emotionally resonant, making them perfect for sharing inspiration and building engaged
+            communities on social media.</p>
+        `
+    },
+    trip: {
+        title: 'Trip Graphics',
+        category: 'Social Media Design',
+        images: [
+            'Images/trip/1.jpg',
+            'Images/trip/2.jpg'
+        ],
+        description: `
+            <h3>Project Overview</h3>
+            <p>This collection showcases travel and adventure-themed graphics designed to capture the excitement and
+            beauty of exploration. Each design evokes wanderlust and adventure, creating engaging social media content
+            perfect for sharing travel experiences, destinations, and journey moments.</p>
+            <h3>Design Approach</h3>
+            <p>The trip graphics combine stunning visuals with dynamic compositions that transport viewers to exciting
+            destinations. Each piece utilizes vibrant imagery and thoughtful design elements to create immersive
+            content that inspires travel and adventure, making them ideal for travel blogs, tourism promotion, and
+            personal journey documentation across social platforms.</p>
+        `
+    },
+    wise: {
+        title: 'WISE Graphics',
+        category: 'Social Media Design',
+        images: [
+            'Images/WISE/1.jpg',
+            'Images/WISE/2.jpg'
+        ],
+        description: `
+            <h3>Project Overview</h3>
+            <p>This collection features professional event promotional graphics designed for the WISE initiative.
+            Each design combines strategic messaging with polished visual presentation to create compelling event
+            announcements and promotional materials that drive engagement and attendance.</p>
+            <h3>Design Approach</h3>
+            <p>The WISE graphics utilize clean, professional layouts with strong visual hierarchy to effectively
+            communicate event details and generate excitement. Each piece is optimized for social media sharing,
+            ensuring maximum visibility and engagement while maintaining brand consistency and professional appeal.</p>
+        `
+    },
+    event: {
+        title: 'Event Graphics',
+        category: 'Social Media Design',
+        images: [
+            'Images/Event/1.jpg'
+        ],
+        description: `
+            <h3>Project Overview</h3>
+            <p>This collection showcases professional event promotional graphics designed to announce and promote
+            various events. Each design effectively communicates key event information while creating visual excitement
+            that encourages attendance and social sharing.</p>
+            <h3>Design Approach</h3>
+            <p>The event graphics feature bold, attention-grabbing designs with clear information hierarchy. Each piece
+            is crafted to stand out in crowded social media feeds while maintaining professional polish, making them
+            perfect for promoting conferences, workshops, celebrations, and other special events.</p>
+        `
+    },
+    football: {
+        title: 'Football Graphics',
+        category: 'Social Media Design',
+        images: [
+            'Images/Football/2.jpg'
+        ],
+        description: `
+            <h3>Project Overview</h3>
+            <p>This collection features dynamic sports graphics with a focus on football themes. Each design captures
+            the energy, passion, and excitement of the sport, creating engaging content perfect for sports teams,
+            fan communities, and athletic event promotion on social media.</p>
+            <h3>Design Approach</h3>
+            <p>The football graphics utilize bold, energetic designs with strong visual impact. Each piece combines
+            sports imagery with dynamic typography and team colors to create content that resonates with football
+            fans and builds excitement around matches, achievements, and sporting moments.</p>
+        `
+    },
+    socialcontent: {
+        title: 'Social Media Content',
+        category: 'Social Media Design',
+        images: [
+            'Images/social/1.jpg',
+            'Images/social/2.jpg',
+            'Images/social/3.jpg',
+            'Images/social/4.jpg',
+            'Images/social/5.jpg'
+        ],
+        description: `
+            <h3>Project Overview</h3>
+            <p>This diverse collection showcases various social media graphics created for different purposes and
+            platforms. Each design demonstrates versatility in style and approach, covering a wide range of content
+            needs from promotional posts to engaging visual stories.</p>
+            <h3>Design Approach</h3>
+            <p>The social media content collection features adaptable designs optimized for various platforms and
+            purposes. Each piece is crafted to maximize engagement, whether through eye-catching visuals, compelling
+            messaging, or strategic use of trending design elements that resonate with diverse online audiences.</p>
+        `
     }
 };
 

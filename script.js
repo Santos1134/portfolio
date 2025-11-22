@@ -427,6 +427,26 @@ commitment to feeling great every single day. I hope you'll love wearing these p
             love story while maintaining timeless appeal, making them perfect for both digital sharing on social media
             and traditional print formats for this once-in-a-lifetime celebration.</p>
         `
+    },
+    birthday: {
+        title: 'Birthday Graphics',
+        category: 'Social Media Design',
+        images: [
+            'Images/birthday/1.jpg',
+            'Images/birthday/2.jpg',
+            'Images/birthday/3.jpg',
+            'Images/birthday/4.jpg'
+        ],
+        description: `
+            <h3>Project Overview</h3>
+            <p>This collection showcases vibrant and joyful birthday graphics designed to celebrate special moments
+            and milestones. Each design brings energy, fun, and personalization to birthday celebrations, creating
+            memorable social media content that captures the excitement and happiness of the special day.</p>
+            <h3>Design Approach</h3>
+            <p>The birthday graphics feature bright, festive color palettes and playful typography that evoke celebration
+            and joy. Each piece is crafted to be eye-catching and shareable across social media platforms, combining
+            modern design trends with timeless celebratory elements that resonate with audiences of all ages.</p>
+        `
     }
 };
 

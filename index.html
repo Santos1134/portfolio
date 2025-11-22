@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Graphics</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h2>Mark Graphics</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Mark Graphics</h1>
+            <p class="hero-subtitle">Transforming Your ideas into stunning visual experiences</p>
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="Images/mark.JPG" alt="Mark Sumo">
+                </div>
+                <div class="about-text">
+                    <h3>Hello, I'm  Mark Y. Sumo, a Creative Graphic Designer, Website developer and an emerging Software Engineer. </h3>
+                    <p>Born and raised in Buchanan, Grand Bassa County, I am a graduate of the St. Peter Claver Catholic School and a Student at
+                        BlueCrest University Liberia majoring in Software Engineering. In addition to that, I am a graphic designer With years of experience utilizing industry-standard design 
+                        tools like Adobe Photoshop, Adobe Illustrator, Adobe Indesign with the likes of other tools like Canva and Pixelabs to create visually appealing designs.
+                         I specialize in creating compelling graphics that tell stories and engage audiences. My passion lies in transforming concepts into beautiful, functional designs that make an impact.</p>
+             
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Portfolio</h2>
+                <div class="title-underline"></div>
+                <p class="section-description">A selection of my recent work</p>
+            </div>
+
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="print">Print</button>
+                <button class="filter-btn" data-filter="illustration">Illustration</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-image"></i>
+                            <p>Brand Identity Design</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Brand Identity Project</h3>
+                        <p>Complete branding package for tech startup</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-image"></i>
+                            <p>Website Design</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>E-commerce Website</h3>
+                        <p>Modern and user-friendly online store</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="print">
+                    <div class="portfolio-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-image"></i>
+                            <p>Print Design</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Marketing Brochure</h3>
+                        <p>Elegant corporate brochure design</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="illustration">
+                    <div class="portfolio-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-image"></i>
+                            <p>Illustration</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Digital Illustration</h3>
+                        <p>Custom illustrations for children's book</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-image"></i>
+                            <p>Logo Design</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Logo Collection</h3>
+                        <p>Various logo designs for different clients</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-image"></i>
+                            <p>UI/UX Design</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Mobile App Design</h3>
+                        <p>Intuitive fitness tracking application</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Services</h2>
+                <div class="title-underline"></div>
+                <p class="section-description">What I can do for you</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-pen-nib"></i>
+                    </div>
+                    <h3>Logo Design</h3>
+                    <p>Custom logo designs that capture your brand's essence and make a lasting impression.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Brand Identity</h3>
+                    <p>Complete brand identity systems including color palettes, typography, and style guides.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <h3>Web Design</h3>
+                    <p>Beautiful and functional website designs that engage users and drive results.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>Print Design</h3>
+                    <p>Professional print materials including brochures, flyers, and business cards.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>User-centered interface designs for web and mobile applications.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3>Social Media Graphics</h3>
+                    <p>Eye-catching graphics for social media campaigns and digital marketing.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="title-underline"></div>
+                <p class="section-description">Let's work together on your next project</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>sumomarky@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+231776428126</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Monrovia, Liberia</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-behance"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

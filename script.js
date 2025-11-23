@@ -305,11 +305,6 @@ commitment to feeling great every single day. I hope you'll love wearing these p
             <p>This collection showcases a diverse range of logo designs created for various clients across different
             industries. Each logo has been carefully crafted to capture the unique essence and personality of the brand
             it represents, combining creative vision with strategic thinking to deliver memorable and effective brand marks.</p>
-            <h3>Design Philosophy</h3>
-            <p>Every logo in this collection demonstrates a deep understanding of brand identity principles, typography,
-            color theory, and visual communication. From minimalist modern designs to more detailed emblems, each piece
-            reflects the specific needs and aspirations of the client while maintaining timeless appeal and versatility
-            across various applications.</p>
         `
     },
     trustgod: {
@@ -328,11 +323,6 @@ commitment to feeling great every single day. I hope you'll love wearing these p
             declares the Lord, "plans to prosper you and not to harm you, plans to give you hope and a future."
             Whether you're repping your faith or spreading positivity, this tee is a reminder that you're rooted in
             something bigger.</p>
-            <h3>Design Concept</h3>
-            <p>This faith-inspired apparel brand combines meaningful scripture with contemporary design aesthetics.
-            Each piece is crafted to inspire and uplift, serving as both a fashion statement and a testament to faith.
-            The designs feature bold typography and thoughtful compositions that resonate with believers seeking to
-            express their spirituality through everyday wear.</p>
         `
     },
     quickbites: {
@@ -353,17 +343,6 @@ commitment to feeling great every single day. I hope you'll love wearing these p
             <p>𝗜𝗻𝘁𝗿𝗼𝗱𝘂𝗰𝗶𝗻𝗴 𝘆𝗼𝘂 𝘁𝗼 𝗤𝘂𝗶𝗰𝗸𝗯𝗶𝘁𝗲𝘀, a fast food delivery service Company dedicated to delivering
             delicious meals right at your doorsteps quick, fresh, and convenient. Wherever you are at home, School,
             or at Work, 𝗤𝘂𝗶𝗰𝗸𝗯𝗶𝘁𝗲𝘀 brings timely deliveries with a taste that satisfies every craving.</p>
-            <h3>Logo Rationale</h3>
-            <p>The 𝗤𝘂𝗶𝗰𝗸𝗯𝗶𝘁𝗲𝘀 brand is designed on a bold take of the letter Q, functioning both as a monogram
-            and a symbol of efficiency and speed.</p>
-            <h3>Design Elements</h3>
-            <p><strong>Letterform Focus:</strong> Utilizing only the letter Q creates an instantly recognizable logo through
-            minimal design that facilitates brand recall.</p>
-            <p><strong>Speed Indication:</strong> The addition of motion lines align with the brand promise of speedy delivery.</p>
-            <p><strong>Cut-off Q Design:</strong> The partial cut-off creates a sense of acceleration and urgency, as if
-            the "Q" itself is moving forward in a hurry.</p>
-            <p><strong>Color Selection:</strong> The bright orange color symbolizes a sense of appetite and comfort, often
-            linked to food. The light blue symbolizes trust and freshness.</p>
         `
     },
     panelist: {
@@ -381,10 +360,6 @@ commitment to feeling great every single day. I hope you'll love wearing these p
             promotional content. Each design was crafted to maintain visual consistency while highlighting individual
             personalities and expertise of the panelists, making them perfect for social media platforms, event promotions,
             and professional networking.</p>
-            <h3>Design Approach</h3>
-            <p>The designs utilize clean layouts, professional typography, and strategic use of color to create engaging
-            and shareable content. Each graphic was optimized for various social media platforms to ensure maximum impact
-            and engagement across different channels while maintaining brand consistency and professional appeal.</p>
         `
     },
     congratulations: {
@@ -400,11 +375,6 @@ commitment to feeling great every single day. I hope you'll love wearing these p
             milestones, and congratulatory moments. Each design combines vibrant colors, elegant typography, and
             thoughtful composition to create memorable and shareable content that resonates with audiences and
             celebrates success in a meaningful way.</p>
-            <h3>Design Approach</h3>
-            <p>The designs feature uplifting color palettes and dynamic layouts that capture the joy and excitement
-            of celebration. Each graphic was carefully crafted to be visually striking while maintaining a professional
-            tone, making them perfect for corporate achievements, personal milestones, and special occasions shared
-            across social media platforms.</p>
         `
     },
     wedding: {
@@ -421,11 +391,6 @@ commitment to feeling great every single day. I hope you'll love wearing these p
             and event announcements. Each design captures the beauty and significance of special wedding moments,
             combining sophisticated typography with delicate design elements to create memorable keepsakes that
             couples and their guests will cherish.</p>
-            <h3>Design Approach</h3>
-            <p>The wedding graphics blend classic elegance with modern aesthetics, utilizing refined color palettes,
-            graceful typography, and thoughtful composition. Each piece is carefully crafted to reflect the unique
-            love story while maintaining timeless appeal, making them perfect for both digital sharing on social media
-            and traditional print formats for this once-in-a-lifetime celebration.</p>
         `
     },
     birthday: {
@@ -442,10 +407,6 @@ commitment to feeling great every single day. I hope you'll love wearing these p
             <p>This collection showcases vibrant and joyful birthday graphics designed to celebrate special moments
             and milestones. Each design brings energy, fun, and personalization to birthday celebrations, creating
             memorable social media content that captures the excitement and happiness of the special day.</p>
-            <h3>Design Approach</h3>
-            <p>The birthday graphics feature bright, festive color palettes and playful typography that evoke celebration
-            and joy. Each piece is crafted to be eye-catching and shareable across social media platforms, combining
-            modern design trends with timeless celebratory elements that resonate with audiences of all ages.</p>
         `
     },
     motivational: {
@@ -460,11 +421,6 @@ commitment to feeling great every single day. I hope you'll love wearing these p
             <p>This collection features inspiring and uplifting motivational graphics designed to encourage, inspire,
             and empower audiences. Each design combines powerful messages with visually compelling layouts to create
             content that resonates deeply and motivates action across social media platforms.</p>
-            <h3>Design Approach</h3>
-            <p>The motivational graphics utilize strong typography, impactful imagery, and strategic color choices to
-            convey messages of positivity and encouragement. Each piece is carefully crafted to be both visually
-            striking and emotionally resonant, making them perfect for sharing inspiration and building engaged
-            communities on social media.</p>
         `
     },
     trip: {
@@ -479,15 +435,10 @@ commitment to feeling great every single day. I hope you'll love wearing these p
             <p>This collection showcases travel and adventure-themed graphics designed to capture the excitement and
             beauty of exploration. Each design evokes wanderlust and adventure, creating engaging social media content
             perfect for sharing travel experiences, destinations, and journey moments.</p>
-            <h3>Design Approach</h3>
-            <p>The trip graphics combine stunning visuals with dynamic compositions that transport viewers to exciting
-            destinations. Each piece utilizes vibrant imagery and thoughtful design elements to create immersive
-            content that inspires travel and adventure, making them ideal for travel blogs, tourism promotion, and
-            personal journey documentation across social platforms.</p>
         `
     },
     wise: {
-        title: 'WISE Graphics',
+        title: 'WISE Liberia Graphics',
         category: 'Social Media Design',
         images: [
             'Images/WISE/1.jpg',
@@ -495,13 +446,9 @@ commitment to feeling great every single day. I hope you'll love wearing these p
         ],
         description: `
             <h3>Project Overview</h3>
-            <p>This collection features professional event promotional graphics designed for the WISE initiative.
-            Each design combines strategic messaging with polished visual presentation to create compelling event
-            announcements and promotional materials that drive engagement and attendance.</p>
-            <h3>Design Approach</h3>
-            <p>The WISE graphics utilize clean, professional layouts with strong visual hierarchy to effectively
-            communicate event details and generate excitement. Each piece is optimized for social media sharing,
-            ensuring maximum visibility and engagement while maintaining brand consistency and professional appeal.</p>
+            <p>This collection showcases designs created for WISE Liberia, a non-profit organization. Each design
+            combines strategic messaging with polished visual presentation to create compelling promotional materials
+            that effectively communicate the organization's mission and initiatives.</p>
         `
     },
     event: {
@@ -515,10 +462,6 @@ commitment to feeling great every single day. I hope you'll love wearing these p
             <p>This collection showcases professional event promotional graphics designed to announce and promote
             various events. Each design effectively communicates key event information while creating visual excitement
             that encourages attendance and social sharing.</p>
-            <h3>Design Approach</h3>
-            <p>The event graphics feature bold, attention-grabbing designs with clear information hierarchy. Each piece
-            is crafted to stand out in crowded social media feeds while maintaining professional polish, making them
-            perfect for promoting conferences, workshops, celebrations, and other special events.</p>
         `
     },
     football: {
@@ -532,10 +475,6 @@ commitment to feeling great every single day. I hope you'll love wearing these p
             <p>This collection features dynamic sports graphics with a focus on football themes. Each design captures
             the energy, passion, and excitement of the sport, creating engaging content perfect for sports teams,
             fan communities, and athletic event promotion on social media.</p>
-            <h3>Design Approach</h3>
-            <p>The football graphics utilize bold, energetic designs with strong visual impact. Each piece combines
-            sports imagery with dynamic typography and team colors to create content that resonates with football
-            fans and builds excitement around matches, achievements, and sporting moments.</p>
         `
     },
     socialcontent: {
@@ -553,10 +492,6 @@ commitment to feeling great every single day. I hope you'll love wearing these p
             <p>This diverse collection showcases various social media graphics created for different purposes and
             platforms. Each design demonstrates versatility in style and approach, covering a wide range of content
             needs from promotional posts to engaging visual stories.</p>
-            <h3>Design Approach</h3>
-            <p>The social media content collection features adaptable designs optimized for various platforms and
-            purposes. Each piece is crafted to maximize engagement, whether through eye-catching visuals, compelling
-            messaging, or strategic use of trending design elements that resonate with diverse online audiences.</p>
         `
     }
 };

@@ -242,7 +242,7 @@ Combined Shape → Creates a bold geometric symbol representing rising progress,
 The stacked upward triangles suggest layers of growth — every line and angle leading upward, reinforcing Treon's brand idea:
 "Technology that moves forward."
 
-0𝟑. Visual Identity System
+0𝟑. Visual Identity for Treon
 Color Psychology:
 Blue represents trust, logic, and calm confidence, while the gradient injects a sense of modern energy and digital evolution.
 𝟎𝟒. 𝐓𝐲𝐩𝐨𝐠𝐫𝐚𝐩𝐡𝐲 𝐒𝐲𝐬𝐭𝐞𝐦

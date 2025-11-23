@@ -541,7 +541,7 @@ function openModal(project) {
     modalDescription.innerHTML = project.description;
 
     // Show modal
-    modal.style.display = 'flex';
+    modal.classList.add('show');
     document.body.style.overflow = 'hidden';
 }
 
@@ -555,13 +555,13 @@ window.addEventListener('click', function(e) {
 });
 
 function closeModal() {
-    modal.style.display = 'none';
+    modal.classList.remove('show');
     document.body.style.overflow = 'auto';
 }
 
 // Close modal on ESC key
 document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape' && modal.style.display === 'flex') {
+    if (e.key === 'Escape' && modal.classList.contains('show')) {
         closeModal();
     }
     if (e.key === 'Escape' && lightbox.style.display === 'flex') {

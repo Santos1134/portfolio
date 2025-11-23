@@ -644,6 +644,9 @@ section {
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.9);
     animation: fadeIn 0.3s ease;
+}
+
+.modal.show {
     display: flex;
     align-items: center;
     justify-content: center;

@@ -112,7 +112,34 @@ document.querySelectorAll('.portfolio-item, .service-card, .skill-item').forEach
 
 // Form submission handling
 const contactForm = document.querySelector('.contact-form');
-const formMessage = document.getElementById('form-message');
+
+// Create notification function
+function showNotification(message, type) {
+    // Create notification element
+    const notification = document.createElement('div');
+    notification.className = `notification ${type}`;
+    notification.innerHTML = `
+        <div class="notification-content">
+            <i class="fas ${type === 'success' ? 'fa-check-circle' : 'fa-exclamation-circle'}"></i>
+            <span>${message}</span>
+        </div>
+    `;
+
+    document.body.appendChild(notification);
+
+    // Trigger animation
+    setTimeout(() => {
+        notification.classList.add('show');
+    }, 100);
+
+    // Remove notification after 5 seconds
+    setTimeout(() => {
+        notification.classList.remove('show');
+        setTimeout(() => {
+            notification.remove();
+        }, 300);
+    }, 5000);
+}
 
 contactForm.addEventListener('submit', async (e) => {
     e.preventDefault();
@@ -135,29 +162,18 @@ contactForm.addEventListener('submit', async (e) => {
         const data = await response.json();
 
         if (data.success) {
-            formMessage.textContent = 'Thank you! Your message has been sent successfully.';
-            formMessage.style.color = '#10b981';
-            formMessage.style.display = 'block';
+            showNotification('Thank you! Your message has been sent successfully.', 'success');
             contactForm.reset();
         } else {
-            formMessage.textContent = 'Oops! Something went wrong. Please try again.';
-            formMessage.style.color = '#ef4444';
-            formMessage.style.display = 'block';
+            showNotification('Oops! Something went wrong. Please try again.', 'error');
         }
     } catch (error) {
-        formMessage.textContent = 'Error sending message. Please try again later.';
-        formMessage.style.color = '#ef4444';
-        formMessage.style.display = 'block';
+        showNotification('Error sending message. Please try again later.', 'error');
     }
 
     // Reset button state
     submitButton.textContent = originalButtonText;
     submitButton.disabled = false;
-
-    // Hide message after 5 seconds
-    setTimeout(() => {
-        formMessage.style.display = 'none';
-    }, 5000);
 });
 
 // Add active state to navigation based on scroll position

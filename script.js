@@ -533,6 +533,7 @@ function openModal(project) {
         const img = document.createElement('img');
         img.src = imageSrc;
         img.alt = project.title;
+        img.addEventListener('click', () => openLightbox(imageSrc));
         modalGallery.appendChild(img);
     });
 
@@ -540,7 +541,7 @@ function openModal(project) {
     modalDescription.innerHTML = project.description;
 
     // Show modal
-    modal.style.display = 'block';
+    modal.style.display = 'flex';
     document.body.style.overflow = 'hidden';
 }
 
@@ -560,7 +561,32 @@ function closeModal() {
 
 // Close modal on ESC key
 document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape' && modal.style.display === 'block') {
+    if (e.key === 'Escape' && modal.style.display === 'flex') {
         closeModal();
+    }
+    if (e.key === 'Escape' && lightbox.style.display === 'flex') {
+        closeLightbox();
+    }
+});
+
+// Image Lightbox Functionality
+const lightbox = document.getElementById('imageLightbox');
+const lightboxImage = document.getElementById('lightboxImage');
+const lightboxClose = document.querySelector('.lightbox-close');
+
+function openLightbox(imageSrc) {
+    lightboxImage.src = imageSrc;
+    lightbox.style.display = 'flex';
+}
+
+function closeLightbox() {
+    lightbox.style.display = 'none';
+}
+
+lightboxClose.addEventListener('click', closeLightbox);
+
+lightbox.addEventListener('click', function(e) {
+    if (e.target === lightbox) {
+        closeLightbox();
     }
 });

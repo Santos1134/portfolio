@@ -10,7 +10,10 @@
       "Bash(git pull:*)",
       "Bash(test:*)",
       "Bash(cat:*)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(git config:*)",
+      "Bash(gh --version:*)",
+      "Bash(npm i:*)"
     ],
     "deny": [],
     "ask": []

@@ -907,6 +907,7 @@ section {
     justify-content: center;
     transition: all 0.3s ease;
     animation: blink 2s infinite;
+    text-decoration: none;
 }
 
 .whatsapp-float:hover {
@@ -914,10 +915,27 @@ section {
     transform: scale(1.1);
     box-shadow: 0 6px 30px rgba(37, 211, 102, 0.6);
     animation: none;
+    text-decoration: none;
 }
 
 .whatsapp-float i {
     margin-top: 3px;
+}
+
+.whatsapp-badge {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 14px;
+    height: 14px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    animation: badgeBlink 1.5s infinite;
+}
+
+.whatsapp-float:hover .whatsapp-badge {
+    animation: none;
 }
 
 /* Animations */
@@ -929,6 +947,17 @@ section {
     50% {
         box-shadow: 0 4px 30px rgba(37, 211, 102, 0.8), 0 0 20px rgba(37, 211, 102, 0.6);
         transform: scale(1.05);
+    }
+}
+
+@keyframes badgeBlink {
+    0%, 100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.3;
+        transform: scale(0.9);
     }
 }
 

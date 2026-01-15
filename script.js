@@ -557,6 +557,22 @@ commitment to feeling great every single day. I hope you'll love wearing these p
             platforms. Each design demonstrates versatility in style and approach, covering a wide range of content
             needs from promotional posts to engaging visual stories.</p>
         `
+    },
+    liberialeagues: {
+        title: 'Liberia Leagues',
+        category: 'Web App Development',
+        images: [
+            'Images/liberialeagues/1.png',
+            'Images/liberialeagues/2.png',
+            'Images/liberialeagues/3.png',
+            'Images/liberialeagues/4.png'
+        ],
+        description: `
+            <h3>Liberia Leagues - Digital Platform for Liberian Football</h3>
+            <p>Liberia Leagues is a mobile-friendly, all-in-one platform designed to manage and promote local football competitions in Liberia. Built in collaboration with fellow developers, the system allows administrators to organize leagues, register teams and players, schedule matches, record scores, and update standings in real time.</p>
+            <p>Fans can follow fixtures, live scores, results, and player statistics, while match officials can submit scores instantly. The platform also provides reports on top scorers, team performance, and player stats, making league management faster, transparent, and engaging.</p>
+            <p>With its clean design and intuitive interface, Liberia Leagues bridges the gap between official league operations and fans, creating a professional, interactive hub for Liberian football.</p>
+        `
     }
 };
 

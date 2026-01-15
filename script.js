@@ -361,6 +361,54 @@ commitment to feeling great every single day. I hope you'll love wearing these p
             or at Work, 𝗤𝘂𝗶𝗰𝗸𝗯𝗶𝘁𝗲𝘀 brings timely deliveries with a taste that satisfies every craving.</p>
         `
     },
+    zoreebooks: {
+        title: 'ZoreeBooks Brand Identity',
+        category: 'Branding & Identity Design',
+        images: [
+            'Images/zoree/Logos-01.jpg',
+            'Images/zoree/Logos-02.jpg',
+            'Images/zoree/Logos-03.jpg',
+            'Images/zoree/TREON Brand Guideline-01.jpg',
+            'Images/zoree/TREON Brand Guideline-02.jpg',
+            'Images/zoree/TREON Brand Guideline-03.jpg',
+            'Images/zoree/TREON Brand Guideline-04.jpg',
+            'Images/zoree/TREON Brand Guideline-05.jpg',
+            'Images/zoree/TREON Brand Guideline-06.jpg',
+            'Images/zoree/TREON Brand Guideline-07.jpg',
+            'Images/zoree/TREON Brand Guideline-08.jpg',
+            'Images/zoree/TREON Brand Guideline-09.jpg',
+            'Images/zoree/TREON Brand Guideline-10.jpg',
+            'Images/zoree/TREON Brand Guideline-11.jpg',
+            'Images/zoree/TREON Brand Guideline-12.jpg',
+            'Images/zoree/TREON Brand Guideline-13.jpg',
+            'Images/zoree/TREON Brand Guideline-14.jpg',
+            'Images/zoree/TREON Brand Guideline-15.jpg',
+            'Images/zoree/TREON Brand Guideline-16.jpg',
+            'Images/zoree/TREON Brand Guideline-17.jpg',
+            'Images/zoree/TREON Brand Guideline-18.jpg',
+            'Images/zoree/TREON Brand Guideline-19.jpg',
+            'Images/zoree/TREON Brand Guideline-20.jpg',
+            'Images/zoree/TREON Brand Guideline-21.jpg',
+            'Images/zoree/TREON Brand Guideline-22.jpg',
+            'Images/zoree/TREON Brand Guideline-23.jpg',
+            'Images/zoree/TREON Brand Guideline-24.jpg',
+            'Images/zoree/TREON Brand Guideline-25.jpg',
+            'Images/zoree/TREON Brand Guideline-26.jpg',
+            'Images/zoree/TREON Brand Guideline-27.jpg',
+            'Images/zoree/TREON Brand Guideline-28.jpg',
+            'Images/zoree/TREON Brand Guideline-29.jpg',
+            'Images/zoree/TREON Brand Guideline-30.jpg'
+        ],
+        description: `
+            <h3>Project Overview</h3>
+            <p>When ZoreeBooks contacted me with the notion of establishing an identity for the brand, I felt clarity.
+            The brand itself wasn't just looking for something that pointed to trends or decoration; they knew what they were about and had a good sense of purpose. That set the tone for me as to how I would undertake the work.</p>
+            <p>Zoreebooks is an education and development brand founded on the principles of the effectiveness of intentional book reading for self-leadership and development. Zoreebooks assists young people in transitioning from passive book readers to active book readers through reflection and action to get results.</p>
+            <p>ZoreeBooks, with its carefully selected book collections, planned journaling, and Read-to-Lead initiative, makes reading an identifiable and enjoyable path.</p>
+            <p>The brand is serene, reflective, and down-to-earth. All visual elements that are employed promote focus and reflection, so that the identity directs the viewer, rather than overwhelming them.</p>
+            <p>Zoreebooks isn't just about consuming information. It's about growing intentionally, one book at a time.</p>
+        `
+    },
     panelist: {
         title: 'Panelist Graphics',
         category: 'Social Media Design',
